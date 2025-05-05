@@ -1,7 +1,5 @@
 const startButton = document.getElementById('button')
 
-startButton.addEventListener('click', startWeb)
-
-function startWeb() {
-    alert('But Clicked')
-}
+startButton.addEventListener('click', () => {
+    alert('Button Clicked')
+})
