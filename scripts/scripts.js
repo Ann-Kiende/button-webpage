@@ -1,5 +1,15 @@
-const startButton = document.getElementById('button')
+const startButton = document.getElementById('start-button')
 
-startButton.addEventListener('click', () => {
-    alert('Button Clicked')
-})
+const backButton = document.getElementById('back-button')
+
+if(startButton){ 
+    startButton.addEventListener('click', () => {
+        window.open('/loaded.html', '_self')
+    })
+}
+
+if(backButton) {
+    backButton.addEventListener('click', () => {
+        window.open('/index.html', '_self')
+    })
+}
