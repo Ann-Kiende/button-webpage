@@ -1,0 +1,25 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* font-size: 15px; */
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    width: 100px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #000;
+}
+
+button:hover {
+    color: #fff;
+    background-color: black;
+}
